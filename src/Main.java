@@ -8,7 +8,8 @@ public class Main {
         obj.optimizedBubbleSort(A);
         System.out.println();
         obj.insertionSort(A);
-        
+        System.out.println();
+        obj.selectionSort(A);
 
     }
 }

@@ -55,5 +55,25 @@ public class Sorting {
         }
     }
 
+    public void selectionSort(int A[]) {
+        for (int i=0; i<A.length-1; i++) {
+            int min = i;
+            for (int j=i+1; j<A.length; j++) {
+                if(A[j]<A[min]) {
+                    min = j;
+                }
+            }
+            if (min!=i) {
+                int temp = A[i];
+                A[i] = A[min];
+                A[min] = temp;
+            }
+        }
+
+        for (int i=0; i<A.length; i++) {
+            System.out.print(A[i] + " ");
+        }
+    }
+
 }
 
