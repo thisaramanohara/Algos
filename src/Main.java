@@ -6,6 +6,9 @@ public class Main {
         obj.bubbleSort(A);
         System.out.println();
         obj.optimizedBubbleSort(A);
+        System.out.println();
+        obj.insertionSort(A);
+        
 
     }
 }
